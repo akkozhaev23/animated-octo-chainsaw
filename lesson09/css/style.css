@@ -1,0 +1,32 @@
+.pos {
+    position: absolute;
+    border: 3px double #0c800c;
+    padding: 2px;
+    background-color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 0 12px 3px #a8a8a8;
+}
+
+.pos1 {
+    left: 20%;
+    top: 60px;
+}
+
+.pos2 {
+    left: 28%;
+    top: 130px;
+}
+
+.pos3 {
+    left: 50%;
+    top: 20px;
+}
+
+.pos4 {
+    left: 43%;
+    top: 210px;
+}
+
+.pos:hover {
+    z-index: 1;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h3>We need your opinion!</h3>
+    <form action="/search" method="POST">
+        <div>
+            <input type="text" id="uname" name="userName" placeholder="Name" value="Name123" >
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="userEmail">
+        </div>
+        <div>
+            <label>Message:
+                <textarea maxlength="512" rows="5" cols="60" id="message" name="userMessage"></textarea>
+            </label>
+            
+        </div>
+        <div>
+            <input type="submit" value="Send my message" >
+        </div>
+
+        <div>
+            <ul>
+                <li>
+                    <label>
+                        <span>Password:</span>
+                        <input type="password" id="password" name="userPassword">
+                    </label>
+                </li>
+                <il>
+                    <label for="news">
+                        <span>Subscribe:</span>
+                        <input type="checkbox" id="news" name="newsCheck">
+                    </label>
+                </il>
+            </ul>
+        </div>
+
+        <p>Gender</p>
+        <input type="radio" value="male" id="gender1" name="sex">
+        <label for="gender1">Male</label> 
+        <input type="radio" value="female" id="gender2" name="sex">
+        <label for="gender2">Female</label> 
+        <input type="radio" value="other" id="gender3" name="sex">
+        <label for="gender3">Other</label> 
+    </br>
+        <label>
+            <span>Choose pizza</span>
+            <select id="namePizza" name="nameOfPizza">
+                <option>Margaritta</option>
+                <option>Pepperoni</option>
+                <option>Quattro Formagi</option>
+                <option>Quattro Formagi</option>
+                <option>Quattro Formagi</option>
+                <option>Quattro Formagi</option>
+            </select>
+        </label>
+    </br>
+        <label for="date">DOB</label>
+        <input type="date" id="date" name="date">
+    </form>
+   
+</body>
+
+</html>

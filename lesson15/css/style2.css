@@ -1,0 +1,24 @@
+h1 {
+    background-color: #d4c4ff;
+    width: 30vw;
+    color: #fff;
+    animation: myAnim 2s linear alternate infinite;
+}
+
+@keyframes myAnim {
+    from {
+        margin-left: 0px;
+    }
+    to {
+        margin-left: 500px;
+    }
+}
+
+.gradient {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background: radial-gradient(circle at 65% 15%, aqua, darkblue);
+        
+}
